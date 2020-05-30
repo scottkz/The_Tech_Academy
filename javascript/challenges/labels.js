@@ -8,5 +8,7 @@ function myFunction() {
     console.log(myFunction);
 }
 
-// This constructor function is being called by an invalid variable. The keyword "true" like other keywords and lables
-// are already "spoken for" by the javascript language itself. It will return nothing in the document and an error in the // console.
+// This constructor function is being called by an invalid variable.
+// The keyword "true" like other keywords and lables
+// are already "spoken for" by the javascript language itself. It will
+// return nothing in the document and an error in the console.
