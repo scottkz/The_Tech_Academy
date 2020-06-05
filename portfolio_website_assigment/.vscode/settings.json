@@ -1,0 +1,7 @@
+{
+  "html-to-css-autocompletion.autocompletionFilesScope": "linked-files",
+  "html-to-css-autocompletion.triggerCharacters": true,
+  "html-to-css-autocompletion.getSelectorsFromFileTypes": [
+    "html"
+  ]
+}
