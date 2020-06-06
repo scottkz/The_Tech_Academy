@@ -56,9 +56,9 @@ body.fade-out {
   font-size: 1.2vw;
   text-align: center;
   position: relative;
+  letter-spacing: .2vw;
   -webkit-animation: movenavText 5.75s;
   animation: movenavText 5.75s;
-  letter-spacing: .2vw;
 }
 
 /*----------  Navbar animation  ----------*/
@@ -105,7 +105,8 @@ body.fade-out {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-height: 100%;
+  width: 100%;
+  height: auto;
   top: 0;
   z-index: -1;
   animation: zoominoutsinglefeatured 5s;
@@ -304,6 +305,15 @@ body.fade-out {
   height: 550px;
 }
 
+@media screen and (max-width: 600px) {
+  .column1 img,
+  .column2 img {
+    display: block;
+    min-width: 25%;
+    height: auto;
+  }
+}
+
 .row:after {
   content: '';
   display: table;
@@ -383,6 +393,17 @@ q {
   position: relative;
 }
 
+#github img {
+  filter: grayscale(75%);
+  display: block;
+  border-radius: 8px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  position: relative;
+}
+
 /*=====  End of About section images  ======*/
 
 /*=============================================
@@ -438,7 +459,8 @@ img:hover {
 }
 
 .form-popup {
-  border: 2px solid #f0f1f0;
+  border: 2px solid #777;
+  border-radius: 4px;
   z-index: 8;
   display: none;
   position: fixed;
@@ -449,7 +471,7 @@ img:hover {
 .form-container {
   max-width: 49vw;
   padding: 9px;
-  background-color: #fff;
+  background-color: #777;
 }
 
 /*----------  Contact form input fields  ----------*/
@@ -460,7 +482,8 @@ img:hover {
   width: 100%;
   padding: .93vw;
   margin: .6vw 0 .6vw 0;
-  border: none;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
   background: gainsboro;
   font-family: Helvetica, Avant Garde;
   font-size: 1vw;
@@ -470,14 +493,14 @@ img:hover {
 .form-container .btn {
   background-color: #fff;
   color: #333;
-  border-color: #333;
+  border: 1px solid #333;
   margin-bottom: 1vh;
 }
 
 .form-container .cancel {
   background-color: #333;
   color: #fff;
-  border-color: gray;
+  border-color: #333;
 }
 
 button {
@@ -498,23 +521,33 @@ button {
 /*=============================================
 =            General button effects            =
 =============================================*/
-button:hover,
-.form-container .btn:hover {
+button:hover {
   color: #fff;
   background-color: #333;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-  border-style: solid;
-  border-color: silver;
+  -webkit-transition-duration: .75s;
+  transition-duration: .75s;
+  border: 1px solid #fff;
+}
+
+.form-container .btn:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 255, .9);
+  -webkit-transition-duration: .75s;
+  transition-duration: .75s;
+  border: 1px solid #fff;
 }
 
 .form-container .cancel:hover {
   color: #fff;
-  background-color: darkred;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-  border-style: solid;
-  border-color: #333;
+  background-color: rgb(255, 80, 80, .8);
+  -webkit-transition-duration: .75s;
+  transition-duration: .75s;
+  border: 1px solid #fff;
+}
+
+.form-container .cancel:active {
+  background-color: rgb(255, 80, 80, .8);
+  border: 1px solid #fff;
 }
 
 /*=====  End of General button effects  ======*/
