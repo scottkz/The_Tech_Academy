@@ -2,8 +2,6 @@
 
 This repository is a collection of assignments and projects completed while I was training with The Tech Academy.
 
-Please go to https://scottkatzelnick.github.io/The_Tech_Academy/ to view this page in your browser.
-
 These files are intended to be reviewed and graded for completeness and quality by a Tech Academy instructor. They include fully operational and working applications, code snippets and basic fundamental programming laguage syntax assignments.
 
 ### The HTML/CSS Assigments
