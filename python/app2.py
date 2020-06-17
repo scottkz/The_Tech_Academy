@@ -3,7 +3,7 @@ import app
 
 
 def print_app2():
-    name = (__name__)
+    name = __name__
     return name
 
 

@@ -12,5 +12,3 @@ elif num1 < 12:
     print('Num1 is less than twelve!')
 else:
     print('Num1 is NOT equal to twelve!')
-
-    

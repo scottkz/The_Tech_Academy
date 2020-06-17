@@ -15,7 +15,7 @@
 def start(nice=0, mean=0, name=''):
     # get user's name
     name = describe_game(name)
-    nice, mean, name = nice_mean(nice, mean, name)
+    nice_mean(nice, mean, name)
 
 
 def describe_game(name):
@@ -44,6 +44,13 @@ def describe_game(name):
 
 
 def nice_mean(nice, mean, name):
+    """
+        This function will display an option for the user
+        where they can choose to be nice or mean. Based on
+        their decision the function will tally their score
+        and return it to them.
+        :rtype: function
+    """
     stop = True
     while stop:
         show_score(nice, mean, name)

@@ -19,5 +19,6 @@ def compute():
             print('\n\nOops! You provided an invalid input, the program will now close.')
     print('{} + {} = {}'.format(var1, var2, var3))
 
+
 if __name__ == '__main__':
     compute()
