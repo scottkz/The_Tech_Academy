@@ -10,6 +10,6 @@ class Canine(Animal):
     color = ''
 
 
-class Feline(Animal):
+class Felidae(Animal):
     mix = ''
     temperament = ''
