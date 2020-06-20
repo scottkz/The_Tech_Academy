@@ -39,7 +39,7 @@ class Mammals:
 # First child class of Mammals - Humans
 class Humans(Mammals):
     def __init__(
-            self, species, vertebrate, invertebrate, movement, sex, name, age
+        self, species, vertebrate, invertebrate, movement, sex, name, age
     ):
         super().__init__(species, vertebrate, invertebrate, movement, sex)
         self.fname = name
@@ -63,7 +63,7 @@ class Humans(Mammals):
 # Second child class of Mammals - Bear
 class Bears(Mammals):
     def __init__(
-            self, species, vertebrate, invertebrate, movement, sex, color, habitat
+        self, species, vertebrate, invertebrate, movement, sex, color, habitat
     ):
         super().__init__(species, vertebrate, invertebrate, movement, sex)
         self.bcolor = color
