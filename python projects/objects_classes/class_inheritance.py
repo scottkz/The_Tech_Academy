@@ -1,15 +1,14 @@
-
 class Animal:
-    genus = ''
-    species = ''
+    genus = ""
+    species = ""
     age = 0
 
 
 class Canine(Animal):
-    breed = ''
-    color = ''
+    breed = ""
+    color = ""
 
 
 class Felidae(Animal):
-    mix = ''
-    temperament = ''
+    mix = ""
+    temperament = ""
