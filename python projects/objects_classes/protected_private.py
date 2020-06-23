@@ -38,5 +38,3 @@ class TopSecret:
 obj = TopSecret("Phoenix", "Level 3", "No Lab, Shadowed", "Fort Meyers")
 obj.get_protected_info()
 obj.set_private("Blue Book", "Roswell")
-
-print(code_name)  # Will not print as it is private
